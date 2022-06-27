@@ -14,12 +14,12 @@ namespace ExercicioAula07POO_Financeira
 
         public ContratoPessoaFisica(string contratante, decimal valor, int prazo, string cpf, DateTime datanascimento)
         {
-            this.IdContrato = Guid.NewGuid();
-            this.Contratante = contratante;
-            this.Valor = valor;
-            this.Prazo = prazo;
-            CPF = cpf;
-            DataNascimento = datanascimento;
+            IdContrato = Guid.NewGuid();
+            base.Contratante = contratante;
+            base.Valor = valor;
+            base.Prazo = prazo;
+            this.CPF = cpf;
+            this.DataNascimento = datanascimento;
         }
         public int CalculoIdade()
         {

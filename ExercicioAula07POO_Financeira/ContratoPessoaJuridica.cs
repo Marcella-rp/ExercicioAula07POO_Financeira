@@ -13,12 +13,12 @@ namespace ExercicioAula07POO_Financeira
 
         public ContratoPessoaJuridica(string contratante, decimal valor, int prazo, string cnpj, string ieec)
         {
-            this.IdContrato = Guid.NewGuid();
-            this.Contratante = contratante;
-            this.Valor = valor;
-            this.Prazo = prazo;
-            Cnpj = cnpj;
-            IEEC = ieec;
+            IdContrato = Guid.NewGuid();
+            base.Contratante = contratante;
+            base.Valor = valor;
+            base.Prazo = prazo;
+            this.Cnpj = cnpj;
+            this.IEEC = ieec;
         }
 
         public override decimal CalcularPrestacao()
