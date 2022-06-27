@@ -14,7 +14,10 @@ namespace ExercicioAula07POO_Financeira
         public int Prazo { get; set; }
 
 
-        public abstract decimal CalcularPrestacao();
+        public virtual decimal CalcularPrestacao()
+        {
+            return Valor / Prazo;
+        }
 
         public virtual void ExibirInfo()
         {

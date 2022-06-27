@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace ExercicioAula07POO_Financeira
 {
@@ -60,7 +55,7 @@ namespace ExercicioAula07POO_Financeira
         }
         public static DateTime ObterData()
         {
-            Console.WriteLine("Data de nascimento do contratante: ");
+            Console.WriteLine("Data de nascimento do contratante (dd/mm/aaaa): ");
             DateTime datanascimento = DateTime.MinValue;
             bool validacao = false;
             while (!validacao)

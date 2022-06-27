@@ -50,7 +50,7 @@ namespace ExercicioAula07POO_Financeira
             {
                 adicional = 4;
             }
-            return Math.Round(Valor / Prazo + adicional, 2);
+            return Math.Round(base.CalcularPrestacao() + adicional, 2);
         }
         public override void ExibirInfo()
         {

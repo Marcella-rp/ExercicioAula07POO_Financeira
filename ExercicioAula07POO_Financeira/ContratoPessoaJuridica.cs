@@ -23,7 +23,7 @@ namespace ExercicioAula07POO_Financeira
 
         public override decimal CalcularPrestacao()
         {
-            return Math.Round((Valor / Prazo) + 3, 2);
+            return Math.Round(base.CalcularPrestacao() + 3, 2);
         }
 
         public override void ExibirInfo()
