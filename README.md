@@ -1,7 +1,7 @@
 # ExercicioAula07POO_Financeira
 
 Exercício final do Módulo 1 - Programação Orientada a Objetos(POO) - Turma Top Coders| Web Full Stack
-
+Docente: Angela Heredia Teixeira
 ENUNCIADO
 
 1) Uma Financeira possui clientes pessoa física e pessoa jurídica. A Financeira precisa de um sistema para gerenciar os contratos de financiamento com seus clientes. Os contratos possuem número, nome do contratante, valor do contrato e prazo.
